@@ -3,8 +3,8 @@ title: "A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-07-29"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "PENDING-ZENODO (deposit 21666406 created, file upload deferred — storage backend outage 2026-07-29)"
-status: "draft"
+doi: "10.5281/zenodo.21711000"
+status: "published"
 ---
 
 **Author:** Rowan Brad Quni-Gudzinas (ORCID: 0009-0002-4317-5604) | **Date:** 2026-07-29 | **License:** QNFO-ULA: https://legal.qnfo.org/

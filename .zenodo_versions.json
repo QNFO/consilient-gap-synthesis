@@ -1,15 +1,13 @@
 {
-  "concept_doi": "PENDING \u2014 deposit 21666406",
-  "latest_deposit_id": "21666406",
+  "concept_doi": "10.5281/zenodo.21710999",
+  "latest_deposit_id": "21711000",
   "versions": [
     {
-      "doi": "PENDING-ZENODO",
-      "deposit_id": "21666406",
+      "doi": "10.5281/zenodo.21711000",
+      "deposit_id": "21711000",
       "tag": "v1.0",
-      "status": "ready-for-upload",
-      "note": "Metadata set. File upload deferred \u2014 Zenodo storage backend outage 2026-07-29. Run _z_publish.py when API recovers.",
-      "r2_path": "qnfo-projects/consilient-gap-synthesis/",
-      "github": "https://github.com/QNFO/consilient-gap-synthesis"
+      "published_at": "2026-07-31",
+      "description": "Initial publication — 8-page PDF, zero rendering errors, provenance bundle"
     }
   ]
 }
