@@ -84,7 +84,9 @@ based on portfolio familiarity, not an empirically calibrated baseline.
 |:--------|:-------|:------|:---------|
 | **measurable-vs-imaginable** | Published | v1.3-distribute | 4 soft gaps resolved; papers-server live |
 | **biophoton-ultrametric-consilience** | Published | v0.5-phase4-deep | Missing: GitHub remote, KG link, Vectorize, calibration, PW validation, external lit |
-| **qnfo-unified-plan** | Active | Phase 0 (95%) | Zenodo deposit 21665233 deferred (API outage) |
+| **qnfo-unified-plan** | Active | Phase 4 complete | All 4 sub-claims [established]; Zenodo DOI 10.5281/zenodo.21664651 published; R2 synced; closeout pending |
+| **continuum-trilogy** | Published | v1.0.0 / Phase 4-7 partial | Zenodo DOI 10.5281/zenodo.21672990; 3 papers (26pp); D1+R2 deployed; 5 falsifiable predictions; Phase 4 Stages 0-2 complete |
+| **adelic-epistemological-foundations** | Published | Phase 8 complete | Zenodo DOI 10.5281/zenodo.21685479; 56-paper meta-survey; 9 PDFs (main + 8 collateral); papers.qnfo.org live |
 | **CFPE Paradigm Forecast** | Active | 7/8 phases | 1 pending: Arweave; quarterly calibration register |
 | **QNFO.GOV** | Active | 3/6 phases | 17 tasks remaining; priority CRITICAL |
 | **numerata** | Active | Phases 0-5 done | Distribution complete; Zenodo DOI live |

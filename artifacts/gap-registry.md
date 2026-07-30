@@ -96,12 +96,12 @@
 | ID | Gap | Source | Severity | Blocks | Description |
 |:---|:----|:-------|:---------|:-------|:-----------|
 | 🔍-T0 | Tier-0 Block: ℚ-vs-ℝ unpublished | qnfo-unified-plan cross-reference | **HIGH** | continuum-trilogy v2, adelic-epistemological v2, Ostrowski Programme | qnfo-unified-plan provides base-field justification for entire programme. Unpublished state leaves downstream repos resting on an un-examined premise (Adversary 1 objection). |
-| 🔍-CT1 | continuum-trilogy status significantly understated | continuum-trilogy cross-reference | **BLOCKING** ⭐ | Phase 1 due diligence credibility | v1.0.0 with Zenodo DOI 10.5281/zenodo.21672990, D1+R2 deployed, Phase 4 deep research Stages 0-2 complete, red-team audit done. Not listed in Active Projects. Evidence of Phase 1 discovery methodology blind spot. |
-| 🔍-CT2 | continuum-trilogy not in Active Projects | PROJECT-PLAN §2.2 | **MEDIUM** | Portfolio awareness | Missing from the 11-entry Active Projects table despite being the most mature research deliverable in the portfolio. |
-| 🔍-CT3 | 5 falsifiable predictions untracked | continuum-trilogy README | **MEDIUM** | Physics Validation tracking | Trilogy provides 5 concrete falsifiable predictions (Gromov δ=0, ℤ₂ invariant, p-adic valuation gap 7×, non-computable unmeasurability, Adelic QEC immunity). None appear in P-gaps. Candidate P-06 through P-10. |
-| 🔍-AE1 | adelics Phase 8 vs Phase 0 discrepancy | adelic-epistemological-foundations | LOW | Status accuracy | README: Phase 8 Complete. PROJECT-PLAN: Phase 0 Pending. External verification confirms Phase 8 (papers.qnfo.org HTTP 200, Zenodo DOI resolves, all artifacts present). PROJECT-PLAN is stale. |
+| 🔍-CT1 | continuum-trilogy status significantly understated | continuum-trilogy cross-reference | **RESOLVED** ✅ | Phase 1 due diligence credibility | v1.0.0 with Zenodo DOI 10.5281/zenodo.21672990, D1+R2 deployed. [v1.2: Added to PROJECT-PLAN §2.2 Active Projects table 2026-07-30. Remediated.] |
+| 🔍-CT2 | continuum-trilogy not in Active Projects | PROJECT-PLAN §2.2 | **RESOLVED** ✅ | Portfolio awareness | [v1.2: Added to PROJECT-PLAN §2.2 alongside adelics. Active Projects now 14 entries.] |
+| 🔍-CT3 | 5 falsifiable predictions untracked | continuum-trilogy README | LOW | Physics Validation tracking | Trilogy provides 5 concrete falsifiable predictions. [v1.2: Tracked as P-06 through P-10.] |
+| 🔍-AE1 | adelics Phase 8 vs Phase 0 discrepancy | adelic-epistemological-foundations | **RESOLVED** ✅ | Status accuracy | [v1.2: Corrected in PROJECT-PLAN §2.2 — shown as Phase 8 complete. README and PLAN now consistent.] |
 | 🔍-AE4 | adelics as canonical meta-index | adelic-epistemological-foundations | LOW | Cross-referencing efficiency | 13-page synthesis surveys 56 papers. Gap registry should reference as canonical entry point document. |
-| 🔍-DEP | Cross-repo dependency chain unmapped | All four repos | **MEDIUM** | Gap prioritization | qnfo-unified-plan → continuum-trilogy → adelic-epistemological logical dependency not represented in gap registry dependency graph. Affects prioritization. |
+| 🔍-DEP | Cross-repo dependency chain unmapped | All four repos | **RESOLVED** ✅ | Gap prioritization | [v1.2: Dependency chain seeded in consilience-gate §3.5; reflected in gap-registry dependency graph.] |
 
 ---
 
@@ -159,10 +159,10 @@ G-01 (QNFO.GOV)
 | Physics Validation (P) | 10 (+5) | 0 | 0 | 1 | 9 |
 | Governance (G) | 4 | 0 | 1 | 1 | 2 |
 | Dissemination (D) | 3 | 0 | 0 | 2 | 1 |
-| Cross-Repository (🔍) | 7 | 1 | 1 | 3 | 2 |
-| **TOTAL** | **54** | **1** | **6** | **14** | **33** |
+| Cross-Repository (🔍) | 7 | 0 (-1) | 1 | 0 (-3) | 2 + 4 resolved |
+| **TOTAL** | **54** | **0** | **6** | **11** | **31 + 5 resolved** |
 
-**Key insight:** 1 BLOCKING gap discovered (🔍-CT1: continuum-trilogy under-representation is evidence of Phase 1 due diligence failure). 6 HIGH-severity gaps (5 original + 🔍-T0). All projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
+**Key insight:** 0 BLOCKING gaps (🔍-CT1 was the sole BLOCKING gap; now RESOLVED — continuum-trilogy added to Active Projects). 6 HIGH-severity gaps (5 original + 🔍-T0). 5 RESOLVED gaps (I-04, 🔍-CT1, 🔍-CT2, 🔍-AE1, 🔍-DEP) across infrastructure and cross-repo categories. All projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
 
 **Pareto distribution:** The top 5 HIGH-severity gaps (12% of total) block ~40% of remaining gaps directly or transitively, and resolving them enables systematic rather than ad hoc verification. This confirms the Phase 0 core claim (§1.2) — the dependency graph is predominantly a DAG with depth ≤3, and the first 1-2 phases (infrastructure) resolve the root blockers for everything downstream.
 
