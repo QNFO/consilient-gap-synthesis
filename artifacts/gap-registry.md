@@ -26,7 +26,7 @@
 | I-01 | Consistency Engine | OI-003 | **HIGH** ⭐ | **L** | I-05, C-01, C-02, G-01 | Cross-ecosystem consistency verification — STUB, no implementation. Root blocker for systematic gap detection. |
 | I-02 | Infomatics Recovery | Infomatics | **HIGH** | **M** | C-05 | 12 files in R2 only, GitHub repo lost. Recover from R2, rebuild linear history. |
 | I-03 | biophoton GitHub Remote | biophoton-ultrametric-consilience | **MEDIUM** | **S** | C-03, C-04, D-01 | Local repo only — cannot push tags, create releases, or link to Zenodo. |
-| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **LOW** ⬇️ | **S** | C-06 | v5.0 PDF (14pp) and Gr-Regge-ℚ construction artifacts pending R2 sync to qnfo-projects/. **[v1.1: HANDOFF confirms Phase 4 complete, Zenodo DOI 10.5281/zenodo.21664651 published, PDF v5.0 built. Remaining: R2 upload is final step before closeout.]** |
+| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **RESOLVED** ✅ | **S** | — | v5.0 PDF (14pp) + Gr-Regge-ℚ construction artifacts synced to qnfo-projects/qnfo-unified-plan/. **[v1.2: R2 sync completed 2026-07-30. Only Zenodo file upload remains (API intermittent 405).]** |
 | I-05 | papers-server Redeploy | measurable-vs-imaginable | **MEDIUM** | **S** | D-02 | qnfo-hub Pages deployed before D1 insert — 404 for paper-computable-real-boundary. |
 | I-06 | ultrametric-well Hardware | ultrametric-well-analysis | **MEDIUM** | **XL** | P-01 | 50GB+ The Well download + GPU neural operator training exceeds local capacity. |
 | I-07 | the-informational-universe Repo | the-informational-universe | **MEDIUM** | **S** | C-07 | Active project with no GitHub repo — Phase 0 init required. |
@@ -68,6 +68,11 @@
 | P-03 | measurable G3 — Archimedean Anthro | measurable-vs-imaginable | LOW | **L** | — | Experiment design exists, unexecuted. Ultrametric vs Archimedean error accumulation. [v1.1: continuum-trilogy Paper I Theorem 4.3 provides theoretical foundation] |
 | P-04 | biophoton Calibration Training | biophoton-ultrametric-consilience | LOW | **M** | — | Bayesian cascade Stage -1 calibration training not completed. [v1.1: continuum-trilogy Phase 4 calibration methodology available for adaptation] |
 | P-05 | biophoton PW Clock Extrapolation | biophoton-ultrametric-consilience | LOW | **L** | — | Page-Wootters clock extrapolation validation pending. |
+| P-06 | Gromov δ=0 for ZBW transitions | continuum-trilogy (Paper I) | LOW | **XL** | — | **[v1.2 NEW]** Falsifiable prediction: Gromov hyperbolicity δ = 0 for Zitterbewegung transition graphs. Measurable via spin noise spectroscopy or EELS/RIXS. Source: continuum-trilogy, DOI 10.5281/zenodo.21672990. |
+| P-07 | ℤ₂ invariant: Dirac vs Majorana | continuum-trilogy (Paper I) | LOW | **XL** | — | **[v1.2 NEW]** Falsifiable prediction: ℤ₂ Bruhat-Tits invariant distinguishes Dirac (+1) from Majorana (−1) fermions at field-theoretic level. Testable via topological quantum materials. |
+| P-08 | p-adic valuation gap (7×) | continuum-trilogy (Paper II) | LOW | **M** | — | **[v1.2 NEW]** Falsifiable prediction: optimal error-correcting codes exhibit v_p^max ≈ 28 vs. v_p^max ≈ 4 for random codes (7× gap). Computationally testable now — no hardware required. |
+| P-09 | Non-computable real unmeasurability | continuum-trilogy (Paper I, THM 4.3) | LOW | **L** | — | **[v1.2 NEW]** Falsifiable prediction: no finite measurement protocol can distinguish a non-computable real from its computable shadow. Negative result — requires proof, not experiment. |
+| P-10 | Adelic QEC: Majorana Archimedean immunity | continuum-trilogy (Paper III) | LOW | **XL** | — | **[v1.2 NEW]** Falsifiable prediction: Majorana zero modes in adelic QEC are immune to all Archimedean perturbations (thermal, EM, vibrational). Requires room-temperature qubit + ultrametric measurement infrastructure. |
 
 ### Governance (G) — 4 gaps
 
@@ -151,11 +156,11 @@ G-01 (QNFO.GOV)
 |:---------|:------|:---------|:-----|:-------|:-----|
 | Infrastructure (I) | 16 | 0 | 2 | 3 (-1) | 11 (+1) |
 | Content/Publication (C) | 14 | 0 | 2 | 4 (-1) | 8 (+1) |
-| Physics Validation (P) | 5 | 0 | 0 | 1 | 4 |
+| Physics Validation (P) | 10 (+5) | 0 | 0 | 1 | 9 |
 | Governance (G) | 4 | 0 | 1 | 1 | 2 |
 | Dissemination (D) | 3 | 0 | 0 | 2 | 1 |
 | Cross-Repository (🔍) | 7 | 1 | 1 | 3 | 2 |
-| **TOTAL** | **49** | **1** | **6** | **14** | **28** |
+| **TOTAL** | **54** | **1** | **6** | **14** | **33** |
 
 **Key insight:** 1 BLOCKING gap discovered (🔍-CT1: continuum-trilogy under-representation is evidence of Phase 1 due diligence failure). 6 HIGH-severity gaps (5 original + 🔍-T0). All projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
 
