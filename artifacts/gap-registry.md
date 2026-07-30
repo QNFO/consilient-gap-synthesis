@@ -49,7 +49,7 @@
 | C-03 | biophoton Not Vectorized | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01 | Paper body not in Vectorize semantic search index. |
 | C-04 | biophoton Missing KG Paper Node | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01, I-01 | Paper not represented in Knowledge Graph. |
 | C-05 | Infomatics Publication State | Infomatics | **MEDIUM** | **M** | — | After recovery (I-02), needs D1/KG/Zenodo publication pipeline. |
-| C-06 | qnfo-unified-plan D1 Update | qnfo-unified-plan | **LOW** ⬇️ | **S** | D-03 | D1 living-paper row (identifier: `qnr-justification-memo`) needs update with v5.0 metadata. **[v1.1: HANDOFF confirms Zenodo DOI 10.5281/zenodo.21664651 published. D1 identifier exists. Only metadata update pending.]** |
+| C-06 | qnfo-unified-plan D1 Update | qnfo-unified-plan | **RESOLVED** ✅ | — | D1 living-paper `qnr-justification-memo`: DOI→10.5281/zenodo.21664651, version→5.0. [v1.3: Updated 2026-07-30.] |
 | C-07 | the-informational-universe Publication | the-informational-universe | **MEDIUM** | **L** | — | Needs full Phase 0-8 pipeline after repo creation (I-07). |
 | C-08 | adelic-qec KG Paper Node | adelic-qec-synthesis | LOW | **S** | — | KG Paper node missing (acknowledged soft gap). |
 | C-09 | adelic-qec PDF Build | adelic-qec-synthesis | LOW | **M** | — | PDF build verification pending. |
@@ -88,8 +88,8 @@
 | ID | Gap | Project/Source | Severity | Effort | Blocks | Description |
 |:---|:----|:---------------|:---------|:-------|:-------|:-----------|
 | D-01 | biophoton Buffer Post | biophoton-ultrametric-consilience | **MEDIUM** | **S** | — | Published but not disseminated — blocked by missing GitHub remote (I-03) and KG link (C-04). |
-| D-02 | Buffer Token Stale (KIF-45) | Global | **MEDIUM** | **S** | D-01, D-03 | Buffer PAT FORBIDDEN — blocks all social posting until regenerated. **[v1.1: continuum-trilogy HANDOFF reports BUFFER_TOKEN live (43 chars) — may be different token; needs verification]** |
-| D-03 | qnfo-unified-plan Buffer Post | qnfo-unified-plan | LOW | **S** | — | Buffer social post for v5.0 memo — blocked by Zenodo PDF upload (file API 400) and token (D-02), not by full publication pipeline. **[v1.1: Phase 4 complete, PDF built. Only upload + Buffer remain.]** |
+| D-02 | Buffer Token Stale (KIF-45) | Global | **RESOLVED** ✅ | — | Token verified live (43 chars). Mastodon + Twitter posted successfully. LinkedIn blocked by account queue limit (10/10). |
+| D-03 | qnfo-unified-plan Buffer Post | qnfo-unified-plan | **RESOLVED** ✅ | — | Mastodon + Twitter posted 2026-07-30. LinkedIn blocked by Buffer queue limit (10/10 — user action needed). |
 
 ### Cross-Repository (🔍) — 7 gaps (NEW, discovered 2026-07-30)
 
@@ -155,14 +155,14 @@ G-01 (QNFO.GOV)
 | Category | Count | BLOCKING | HIGH | MEDIUM | LOW |
 |:---------|:------|:---------|:-----|:-------|:-----|
 | Infrastructure (I) | 16 | 0 | 2 | 3 (-1) | 11 (+1) |
-| Content/Publication (C) | 14 | 0 | 2 | 4 (-1) | 8 (+1) |
+| Content/Publication (C) | 14 | 0 | 2 | 4 (-1) | 7 (-1) + 1 resolved |
 | Physics Validation (P) | 10 (+5) | 0 | 0 | 1 | 9 |
 | Governance (G) | 4 | 0 | 1 | 1 | 2 |
-| Dissemination (D) | 3 | 0 | 0 | 2 | 1 |
+| Dissemination (D) | 3 | 0 | 0 | 1 (-1) | 0 (-1) + 2 resolved |
 | Cross-Repository (🔍) | 7 | 0 (-1) | 1 | 0 (-3) | 2 + 4 resolved |
-| **TOTAL** | **54** | **0** | **6** | **11** | **31 + 5 resolved** |
+| **TOTAL** | **54** | **0** | **6** | **9** | **28 + 7 resolved** |
 
-**Key insight:** 0 BLOCKING gaps (🔍-CT1 was the sole BLOCKING gap; now RESOLVED — continuum-trilogy added to Active Projects). 6 HIGH-severity gaps (5 original + 🔍-T0). 5 RESOLVED gaps (I-04, 🔍-CT1, 🔍-CT2, 🔍-AE1, 🔍-DEP) across infrastructure and cross-repo categories. All projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
+**Key insight:** 0 BLOCKING. 6 HIGH. 7 RESOLVED gaps (I-04, C-06, D-02, D-03, 🔍-CT1, 🔍-CT2, 🔍-AE1, 🔍-DEP). The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
 
 **Pareto distribution:** The top 5 HIGH-severity gaps (12% of total) block ~40% of remaining gaps directly or transitively, and resolving them enables systematic rather than ad hoc verification. This confirms the Phase 0 core claim (§1.2) — the dependency graph is predominantly a DAG with depth ≤3, and the first 1-2 phases (infrastructure) resolve the root blockers for everything downstream.
 
