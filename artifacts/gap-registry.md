@@ -26,7 +26,7 @@
 | I-01 | Consistency Engine | OI-003 | **HIGH** ⭐ | **L** | I-05, C-01, C-02, G-01 | Cross-ecosystem consistency verification — STUB, no implementation. Root blocker for systematic gap detection. |
 | I-02 | Infomatics Recovery | Infomatics | **HIGH** | **M** | C-05 | 12 files in R2 only, GitHub repo lost. Recover from R2, rebuild linear history. |
 | I-03 | biophoton GitHub Remote | biophoton-ultrametric-consilience | **MEDIUM** | **S** | C-03, C-04, D-01 | Local repo only — cannot push tags, create releases, or link to Zenodo. |
-| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **RESOLVED** ✅ | **S** | — | v5.0 PDF (14pp) + Gr-Regge-ℚ construction artifacts synced to qnfo-projects/qnfo-unified-plan/. **[v1.2: R2 sync completed 2026-07-30. Only Zenodo file upload remains (API intermittent 405).]** |
+| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **RESOLVED** ✅ | — | — | v5.0 PDF (14pp) + memo + Gr-Regge-ℚ synced to qnfo-projects/qnfo-unified-plan/. [v1.2: R2 sync completed 2026-07-30.] |
 | I-05 | papers-server Redeploy | measurable-vs-imaginable | **MEDIUM** | **S** | D-02 | qnfo-hub Pages deployed before D1 insert — 404 for paper-computable-real-boundary. |
 | I-06 | ultrametric-well Hardware | ultrametric-well-analysis | **MEDIUM** | **XL** | P-01 | 50GB+ The Well download + GPU neural operator training exceeds local capacity. |
 | I-07 | the-informational-universe Repo | the-informational-universe | **MEDIUM** | **S** | C-07 | Active project with no GitHub repo — Phase 0 init required. |
