@@ -1,8 +1,8 @@
-# Gap Registry — Consilient Gap Synthesis (v1.0)
+# Gap Registry — Consilient Gap Synthesis (v1.1)
 
-**Date:** 2026-07-29
+**Date:** 2026-07-30 (v1.1: cross-reference audit against qnfo-unified-plan, continuum-trilogy, adelic-epistemological-foundations)
 **Source:** Phase 1 Due Diligence — cross-reference of D1, KG, R2, local projects, and memory records
-**Total Gaps Catalogued:** 41
+**Total Gaps Catalogued:** 42 (+7 newly discovered)
 
 ---
 
@@ -26,7 +26,7 @@
 | I-01 | Consistency Engine | OI-003 | **HIGH** ⭐ | **L** | I-05, C-01, C-02, G-01 | Cross-ecosystem consistency verification — STUB, no implementation. Root blocker for systematic gap detection. |
 | I-02 | Infomatics Recovery | Infomatics | **HIGH** | **M** | C-05 | 12 files in R2 only, GitHub repo lost. Recover from R2, rebuild linear history. |
 | I-03 | biophoton GitHub Remote | biophoton-ultrametric-consilience | **MEDIUM** | **S** | C-03, C-04, D-01 | Local repo only — cannot push tags, create releases, or link to Zenodo. |
-| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **MEDIUM** | **S** | C-06 | Project artifacts (PDF v5.0, memo) not synced to qnfo-projects/ R2 path. |
+| I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **LOW** ⬇️ | **S** | C-06 | v5.0 PDF (14pp) and Gr-Regge-ℚ construction artifacts pending R2 sync to qnfo-projects/. **[v1.1: HANDOFF confirms Phase 4 complete, Zenodo DOI 10.5281/zenodo.21664651 published, PDF v5.0 built. Remaining: R2 upload is final step before closeout.]** |
 | I-05 | papers-server Redeploy | measurable-vs-imaginable | **MEDIUM** | **S** | D-02 | qnfo-hub Pages deployed before D1 insert — 404 for paper-computable-real-boundary. |
 | I-06 | ultrametric-well Hardware | ultrametric-well-analysis | **MEDIUM** | **XL** | P-01 | 50GB+ The Well download + GPU neural operator training exceeds local capacity. |
 | I-07 | the-informational-universe Repo | the-informational-universe | **MEDIUM** | **S** | C-07 | Active project with no GitHub repo — Phase 0 init required. |
@@ -49,7 +49,7 @@
 | C-03 | biophoton Not Vectorized | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01 | Paper body not in Vectorize semantic search index. |
 | C-04 | biophoton Missing KG Paper Node | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01, I-01 | Paper not represented in Knowledge Graph. |
 | C-05 | Infomatics Publication State | Infomatics | **MEDIUM** | **M** | — | After recovery (I-02), needs D1/KG/Zenodo publication pipeline. |
-| C-06 | qnfo-unified-plan D1 Update | qnfo-unified-plan | **MEDIUM** | **S** | D-03 | D1 living-paper row needs update with v5.0 metadata + DOI. |
+| C-06 | qnfo-unified-plan D1 Update | qnfo-unified-plan | **LOW** ⬇️ | **S** | D-03 | D1 living-paper row (identifier: `qnr-justification-memo`) needs update with v5.0 metadata. **[v1.1: HANDOFF confirms Zenodo DOI 10.5281/zenodo.21664651 published. D1 identifier exists. Only metadata update pending.]** |
 | C-07 | the-informational-universe Publication | the-informational-universe | **MEDIUM** | **L** | — | Needs full Phase 0-8 pipeline after repo creation (I-07). |
 | C-08 | adelic-qec KG Paper Node | adelic-qec-synthesis | LOW | **S** | — | KG Paper node missing (acknowledged soft gap). |
 | C-09 | adelic-qec PDF Build | adelic-qec-synthesis | LOW | **M** | — | PDF build verification pending. |
@@ -63,10 +63,10 @@
 
 | ID | Gap | Project/Source | Severity | Effort | Blocks | Description |
 |:---|:----|:---------------|:---------|:-------|:-------|:-----------|
-| P-01 | ultrametric-well Training | ultrametric-well-analysis | **MEDIUM** | **XL** | — | Neural operator training on The Well dataset — blocked by hardware (I-06). |
-| P-02 | measurable G2 — LoF Proof | measurable-vs-imaginable | LOW | **M** | — | Formal LoF proof that ℝ_comp = fixed point of Re-entry. Partially resolved via Leshem 2019. |
-| P-03 | measurable G3 — Archimedean Anthro | measurable-vs-imaginable | LOW | **L** | — | Experiment design exists, unexecuted. Ultrametric vs Archimedean error accumulation. |
-| P-04 | biophoton Calibration Training | biophoton-ultrametric-consilience | LOW | **M** | — | Bayesian cascade Stage -1 calibration training not completed. |
+| P-01 | ultrametric-well Training | ultrametric-well-analysis | **MEDIUM** | **XL** | — | Neural operator training on The Well dataset — blocked by hardware (I-06). [v1.1: continuum-trilogy Paper II provides theoretical framework for ultrametric physics] |
+| P-02 | measurable G2 — LoF Proof | measurable-vs-imaginable | LOW | **M** | — | Formal LoF proof that ℝ_comp = fixed point of Re-entry. Partially resolved via Leshem 2019. [v1.1: adelic paper §1-2 constructs numbers from LoF primitives] |
+| P-03 | measurable G3 — Archimedean Anthro | measurable-vs-imaginable | LOW | **L** | — | Experiment design exists, unexecuted. Ultrametric vs Archimedean error accumulation. [v1.1: continuum-trilogy Paper I Theorem 4.3 provides theoretical foundation] |
+| P-04 | biophoton Calibration Training | biophoton-ultrametric-consilience | LOW | **M** | — | Bayesian cascade Stage -1 calibration training not completed. [v1.1: continuum-trilogy Phase 4 calibration methodology available for adaptation] |
 | P-05 | biophoton PW Clock Extrapolation | biophoton-ultrametric-consilience | LOW | **L** | — | Page-Wootters clock extrapolation validation pending. |
 
 ### Governance (G) — 4 gaps
@@ -83,8 +83,20 @@
 | ID | Gap | Project/Source | Severity | Effort | Blocks | Description |
 |:---|:----|:---------------|:---------|:-------|:-------|:-----------|
 | D-01 | biophoton Buffer Post | biophoton-ultrametric-consilience | **MEDIUM** | **S** | — | Published but not disseminated — blocked by missing GitHub remote (I-03) and KG link (C-04). |
-| D-02 | Buffer Token Stale (KIF-45) | Global | **MEDIUM** | **S** | D-01, D-03 | Buffer PAT FORBIDDEN — blocks all social posting until regenerated. |
-| D-03 | qnfo-unified-plan Buffer Post | qnfo-unified-plan | LOW | **S** | — | v5.0 memo Buffer post pending — blocked by Zenodo upload (C-06) and token (D-02). |
+| D-02 | Buffer Token Stale (KIF-45) | Global | **MEDIUM** | **S** | D-01, D-03 | Buffer PAT FORBIDDEN — blocks all social posting until regenerated. **[v1.1: continuum-trilogy HANDOFF reports BUFFER_TOKEN live (43 chars) — may be different token; needs verification]** |
+| D-03 | qnfo-unified-plan Buffer Post | qnfo-unified-plan | LOW | **S** | — | Buffer social post for v5.0 memo — blocked by Zenodo PDF upload (file API 400) and token (D-02), not by full publication pipeline. **[v1.1: Phase 4 complete, PDF built. Only upload + Buffer remain.]** |
+
+### Cross-Repository (🔍) — 7 gaps (NEW, discovered 2026-07-30)
+
+| ID | Gap | Source | Severity | Blocks | Description |
+|:---|:----|:-------|:---------|:-------|:-----------|
+| 🔍-T0 | Tier-0 Block: ℚ-vs-ℝ unpublished | qnfo-unified-plan cross-reference | **HIGH** | continuum-trilogy v2, adelic-epistemological v2, Ostrowski Programme | qnfo-unified-plan provides base-field justification for entire programme. Unpublished state leaves downstream repos resting on an un-examined premise (Adversary 1 objection). |
+| 🔍-CT1 | continuum-trilogy status significantly understated | continuum-trilogy cross-reference | **BLOCKING** ⭐ | Phase 1 due diligence credibility | v1.0.0 with Zenodo DOI 10.5281/zenodo.21672990, D1+R2 deployed, Phase 4 deep research Stages 0-2 complete, red-team audit done. Not listed in Active Projects. Evidence of Phase 1 discovery methodology blind spot. |
+| 🔍-CT2 | continuum-trilogy not in Active Projects | PROJECT-PLAN §2.2 | **MEDIUM** | Portfolio awareness | Missing from the 11-entry Active Projects table despite being the most mature research deliverable in the portfolio. |
+| 🔍-CT3 | 5 falsifiable predictions untracked | continuum-trilogy README | **MEDIUM** | Physics Validation tracking | Trilogy provides 5 concrete falsifiable predictions (Gromov δ=0, ℤ₂ invariant, p-adic valuation gap 7×, non-computable unmeasurability, Adelic QEC immunity). None appear in P-gaps. Candidate P-06 through P-10. |
+| 🔍-AE1 | adelics Phase 8 vs Phase 0 discrepancy | adelic-epistemological-foundations | LOW | Status accuracy | README: Phase 8 Complete. PROJECT-PLAN: Phase 0 Pending. External verification confirms Phase 8 (papers.qnfo.org HTTP 200, Zenodo DOI resolves, all artifacts present). PROJECT-PLAN is stale. |
+| 🔍-AE4 | adelics as canonical meta-index | adelic-epistemological-foundations | LOW | Cross-referencing efficiency | 13-page synthesis surveys 56 papers. Gap registry should reference as canonical entry point document. |
+| 🔍-DEP | Cross-repo dependency chain unmapped | All four repos | **MEDIUM** | Gap prioritization | qnfo-unified-plan → continuum-trilogy → adelic-epistemological logical dependency not represented in gap registry dependency graph. Affects prioritization. |
 
 ---
 
@@ -121,6 +133,14 @@ I-07 (the-informational-universe Repo)
 G-01 (QNFO.GOV)
 ├──► G-02 (kepler audits)
 └──► G-04 (Automated compliance)
+
+🔍-T0 (Tier-0 Block: ℚ-vs-ℝ unpublished)
+├──► continuum-trilogy v2 (OC criterion justification)
+├──► adelic-epistemological v2 (central thesis grounding)
+└──► Ostrowski Programme publication gate
+
+🔍-CT1 (continuum-trilogy understated) ⭐ [BLOCKING]
+└──► Phase 1 due diligence credibility (discovery failure)
 ```
 
 ---
@@ -129,14 +149,15 @@ G-01 (QNFO.GOV)
 
 | Category | Count | BLOCKING | HIGH | MEDIUM | LOW |
 |:---------|:------|:---------|:-----|:-------|:-----|
-| Infrastructure (I) | 16 | 0 | 2 | 4 | 10 |
-| Content/Publication (C) | 14 | 0 | 2 | 5 | 7 |
+| Infrastructure (I) | 16 | 0 | 2 | 3 (-1) | 11 (+1) |
+| Content/Publication (C) | 14 | 0 | 2 | 4 (-1) | 8 (+1) |
 | Physics Validation (P) | 5 | 0 | 0 | 1 | 4 |
 | Governance (G) | 4 | 0 | 1 | 1 | 2 |
 | Dissemination (D) | 3 | 0 | 0 | 2 | 1 |
-| **TOTAL** | **42** | **0** | **5** | **13** | **24** |
+| Cross-Repository (🔍) | 7 | 1 | 1 | 3 | 2 |
+| **TOTAL** | **49** | **1** | **6** | **14** | **28** |
 
-**Key insight:** Zero BLOCKING gaps — all projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
+**Key insight:** 1 BLOCKING gap discovered (🔍-CT1: continuum-trilogy under-representation is evidence of Phase 1 due diligence failure). 6 HIGH-severity gaps (5 original + 🔍-T0). All projects that are currently active can proceed. The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
 
 **Pareto distribution:** The top 5 HIGH-severity gaps (12% of total) block ~40% of remaining gaps directly or transitively, and resolving them enables systematic rather than ad hoc verification. This confirms the Phase 0 core claim (§1.2) — the dependency graph is predominantly a DAG with depth ≤3, and the first 1-2 phases (infrastructure) resolve the root blockers for everything downstream.
 

@@ -124,3 +124,46 @@ the classification, not an afterthought.
 - **Execution:** The synthesis paper should include the Cross-Domain Lexicon
   table above as a dedicated "Cross-Domain Implications" section, making the
   consilience explicit rather than implicit.
+
+---
+
+## 3.5 Cross-Repository Dependency Chain (NEW — 2026-07-30)
+
+### Discovery
+
+Cross-referencing the four repos (qnfo-unified-plan, continuum-trilogy,
+adelic-epistemological-foundations, consilient-gap-synthesis) revealed a
+dependency chain NOT represented in the original gap-registry dependency graph.
+
+### The Chain (v1.1 — RED-TEAM CORRECTED)
+
+```
+qnfo-unified-plan (Phase 4 complete, DOI 10.5281/zenodo.21664651)
+    │ All 4 sub-claims [established]: MF, OE, OTA, CNC
+    │ 14-page PDF built (zero errors)
+    │ logical dependency (not publication prerequisite)
+    ▼
+continuum-trilogy (v1.0.0, DOI 10.5281/zenodo.21672990)
+    │ OC criterion (Theorem 5.1), 5 falsifiable predictions
+    │ D1+R2 deployed, Phase 4 Stages 0-2 complete
+    ▼
+adelic-epistemological-foundations (Phase 8, DOI 10.5281/zenodo.21685479)
+    │ 56-paper meta-survey, epistemological framing
+    ▼
+consilient-gap-synthesis (Phase 0-1, gap-registry v1.1)
+    │ Meta-roadmap: 49 gaps across 5+1 categories
+```
+
+### Nature of Dependency
+
+The dependency is **logical**, not **temporal**. The trilogy was published
+before qnfo-unified-plan received its Zenodo DOI — the trilogy's OC criterion
+doesn't formally require the ℚ-vs-ℝ memo. However, the foundation flows
+top-down: ℚ as base field → Ostrowski's theorem organizes completions →
+adelic programme is removal of an unjustified assumption.
+
+### Gaps Surfaced
+
+This chain revealed 7 gaps not in the original registry: 🔍-T0 (now LOW after
+HANDOFF discovery), 🔍-CT1 (BLOCKING), 🔍-CT2-CT3 (MEDIUM), 🔍-AE1, 🔍-AE4,
+🔍-DEP. All added to gap-registry v1.1 §Cross-Repository.
