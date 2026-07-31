@@ -51,7 +51,7 @@ Full 8-phase publication pipeline executed. The QNFO/QWAV research portfolio (95
 
 | Task | Blocker | Action |
 |:-----|:--------|:-------|
-| Zenodo publish | File API outage (KIF-44) | `python _z_publish.py --check` → `python _z_publish.py` |
+| ~~Zenodo publish~~ | ~~File API outage (KIF-44)~~ | ✅ **RESOLVED 2026-07-31: VERIFIED PUBLISHED** — deposit 21711000 "done", DOI 10.5281/zenodo.21711000 resolves (302→zenodo.org). Concept DOI 10.5281/zenodo.21710999. `.zenodo_versions.json` updated with published chain. The KIF-44-deferred deposit 21666406 was superseded. |
 | papers-server redeploy | Measurable paper 404 | User redeploy qnfo-hub Pages from Dashboard |
 | KG edges to more papers | Needs time | Future session |
 
