@@ -3,7 +3,7 @@
 **Purpose:** Central, machine-readable location for weaving together all QNFO research findings to determine continuing research direction. This is the canonical follow-up surface for every research session — next actions, open questions, predictions/falsifications, and pre-registrations.
 
 **Maintainer:** Any research session touching QNFO publications MUST append/update entries here (Phase Closeout Protocol).
-**Version:** 1.1 (2026-07-31) — **RED TEAM RESTRUCTURE**: Infrastructure demoted, research promoted. See §7 for red team findings.
+**Version:** 1.2 (2026-07-31) — **NA-10 RESOLVED**: jpcub-validation project launched. See §7 for red team findings, §8 for jpcub-validation predictions.
 **Repo:** QNFO/consilient-gap-synthesis (this file)
 
 ---
@@ -15,8 +15,9 @@
 | # | Action | Project | Priority | Blocked By | Status | Est. |
 |:--|:-------|:--------|:---------|:-----------|:-------|:-----|
 | NA-01 | Redeploy `qnfo-hub` Pages from Cloudflare Dashboard (fixes papers.qnfo.org 404 for all papers inserted after last deploy) | infra | 🔴 CRITICAL | User (Dashboard) | BLOCKED | 5 min |
-| NA-10 | **Decide next research program** — hypothesis, falsification condition, pre-registration date (see §4/REG-01) | — | 🔴 HIGH | User decision | PENDING | decision |
-| NA-11 | **Define next research program** — once NA-10 is decided: write pre-registration entry, scaffold project, initialize Phase 0 | — | 🔴 HIGH | NA-10 | PENDING | 2-3 sessions |
+| NA-10 | **Next research direction selected:** jpcub-validation — validates JPCUB as predictive metric for computing paradigm shifts (retrospective backtest + prospective ranking of 7 post-silicon candidates) | jpcub-validation | ✅ RESOLVED | — | DONE | 2026-07-31 |
+| NA-11 | **jpcub-validation Phase 0 complete** — repo QNFO/jpcub-validation scaffolded, core claim locked, PROJECT-PLAN.md written, tag v0.1-phase0 | jpcub-validation | 🔴 HIGH | — | IN-PROGRESS | Phase 0 done |
+| NA-12 | **jpcub-validation Phase 1:** Due diligence — query KG/D1, external literature, collect historical JPCUB data | jpcub-validation | 🔴 HIGH | — | PENDING | 1-2 sessions |
 | NA-04 | Vectorize biophoton paper body (C-03) + create KG Paper node (C-04) | biophoton | 🟠 MEDIUM | — | PENDING | <1 session |
 | NA-03 | Execute QNFO.GOV tasks opportunistically (G-01, 17 tasks) — do as they become relevant to research workflow | governance | 🟠 MEDIUM | — | PENDING | ongoing |
 | NA-07 | Verify QWAV v2.3 dissemination (Buffer posts) | qwav | 🟢 LOW | — | PENDING | <1 session |
@@ -103,6 +104,7 @@ All dated, falsifiable predictions across QNFO papers. Audit annually (January).
 | REG-03 | paper_ids registry (925 entries) | ID registry | ACTIVE | D1 living-paper |
 | REG-04 | Calibration training Brier score log (0.12, research skill KIF-31) | Calibration log | ACTIVE | research skill |
 | REG-05 | Candidate pre-registration: "substrate-shift predictability" (OQ-01) | Pre-registration | PROPOSED | §2/OQ-01 |
+| REG-06 | jpcub-validation: JPCUB as predictive metric for computing paradigm shifts | Pre-registration | REGISTERED | QNFO/jpcub-validation, v0.1-phase0 |
 
 **Pre-registration protocol:** Before launching any new research program, create a dated pre-registration entry here with hypothesis, falsification condition, and check date — then execute. This satisfies the user's requirement for central registry/pre-registration tracking.
 
@@ -158,3 +160,29 @@ The §5 closeout checklist mandated adding new NAs at every closeout without an 
 
 ### Principle
 > QNFO/QWAV exists to produce research and insights. Infrastructure exists to serve research output, not the other way around. If a paper published successfully without fixing an infrastructure gap, that gap is not HIGH priority.
+
+---
+
+## 8. jpcub-validation Predictions & Pre-Registration (2026-07-31)
+
+### 8.1 Project Pre-Registration (REG-06)
+
+| # | Item | Type | Status | Link |
+|:--|:-----|:-----|:-------|:-----|
+| REG-06 | jpcub-validation pre-registration | Pre-registration | REGISTERED | QNFO/jpcub-validation, v0.1-phase0 |
+
+**Hypothesis:** JPCUB is a causally relevant metric for computing substrate selection — it retrospectively identifies paradigm shifts before they occur and prospectively ranks competing post-silicon candidates in order of likely commercial viability.
+
+**Falsification:** JPCUB fails to outperform at least 2 of 3 traditional metrics (FLOPS/Watt, transistor count, cost-per-MIPS) on retrospective ranking accuracy, OR its prospective ranking of the 7 post-silicon candidates is indistinguishable from random at p < 0.05.
+
+**Check date:** 2026-09-30 (target Phase 5 publication)
+
+### 8.2 Calibration Register Entries
+
+| Check Year | Prediction | Strength | Anchor | Status |
+|:-----------|:-----------|:---------|:-------|:-------|
+| 2026-09-30 | JPCUB retrospectively ranks ≥4 of 6 historical transitions with earlier signal than transistor count | STRONG | Empirical base rate | PENDING |
+| 2026-09-30 | JPCUB prospective ranking differs from computing-machines expert consensus on ≥2 of 7 candidates | STRONG | Reference class | PENDING |
+| 2026-09-30 | At least 1 post-silicon candidate ranked top-3 by JPCUB is ranked bottom-3 by traditional metrics | WEAK | Calibrated subjective | PENDING |
+| 2030 | The top-ranked JPCUB candidate shows measurable commercial traction (funding, prototypes, or revenue) | STRONG | Empirical base rate | PENDING |
+| 2035 | At least 2 of JPCUB's top-3 candidates have achieved >1% computing market share | WEAK | Calibrated subjective | PENDING |
