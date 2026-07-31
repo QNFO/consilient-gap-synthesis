@@ -24,12 +24,12 @@
 | ID | Gap | Project/Source | Severity | Effort | Blocks | Description |
 |:---|:----|:---------------|:---------|:-------|:-------|:-----------|
 | I-01 | Consistency Engine | OI-003 | **HIGH** ⭐ | **L** | I-05, C-01, C-02, G-01 | Cross-ecosystem consistency verification — STUB, no implementation. Root blocker for systematic gap detection. |
-| I-02 | Infomatics Recovery | Infomatics | **HIGH** | **M** | C-05 | 12 files in R2 only, GitHub repo lost. Recover from R2, rebuild linear history. |
-| I-03 | biophoton GitHub Remote | biophoton-ultrametric-consilience | **MEDIUM** | **S** | C-03, C-04, D-01 | Local repo only — cannot push tags, create releases, or link to Zenodo. |
+| I-02 | Infomatics Recovery | Infomatics | **HIGH** 🔍 | **M** | C-05 | 12 files in R2 only. Searched 8+ R2 paths (qnfo-projects, qnfo-releases, qnfo-research, qwav-projects) — all "key does not exist." D1 entry exists (DOI 10.5281/zenodo.21017108) but body_md only 105 chars. Files may have been deleted or in unknown bucket. [v1.5: Investigation 2026-07-31.] |
+| I-03 | biophoton GitHub Remote | biophoton-ultrametric-consilience | **RESOLVED** ✅ | — | — | GitHub remote exists (QNFO/biophoton-ultrametric-consilience), 3 tags pushed (v0.1, v0.3, v0.5). [v1.5: Verified 2026-07-31 — remote functional, tags on origin.] |
 | I-04 | qnfo-unified-plan R2 Sync | qnfo-unified-plan | **RESOLVED** ✅ | — | — | v5.0 PDF (14pp) + memo + Gr-Regge-ℚ synced to qnfo-projects/qnfo-unified-plan/. [v1.2: R2 sync completed 2026-07-30.] |
-| I-05 | papers-server Redeploy | measurable-vs-imaginable | **MEDIUM** | **S** | D-02 | qnfo-hub Pages deployed before D1 insert — 404 for paper-computable-real-boundary. |
+| I-05 | papers-server Redeploy | measurable-vs-imaginable | **MEDIUM** 🔒 | **S** | D-02 | qnfo-hub Pages deployed before D1 insert — 404 for paper-computable-real-boundary. BLOCKED: Requires Cloudflare Dashboard manual redeploy (no API retry for direct-upload Pages projects). |
 | I-06 | ultrametric-well Hardware | ultrametric-well-analysis | **MEDIUM** | **XL** | P-01 | 50GB+ The Well download + GPU neural operator training exceeds local capacity. |
-| I-07 | the-informational-universe Repo | the-informational-universe | **MEDIUM** | **S** | C-07 | Active project with no GitHub repo — Phase 0 init required. |
+| I-07 | the-informational-universe Repo | the-informational-universe | **RESOLVED** ✅ | — | — | Repo created (QNFO/the-informational-universe), Phase 0 scaffold (README, PROJECT-PLAN, .gitignore, dirs). [v1.5: Created 2026-07-31.] |
 | I-08 | Agent Swarm Architecture | OI-001 | LOW | **XL** | — | STUB — multi-agent coordination framework. |
 | I-09 | Automated Peer Review | OI-002 | LOW | **XL** | — | STUB — automated review pipeline for QNFO publications. |
 | I-10 | Reproducibility as Code | OI-006 | LOW | **L** | — | STUB — IaC for research reproducibility. |
@@ -45,7 +45,7 @@
 | ID | Gap | Project/Source | Severity | Effort | Blocks | Description |
 |:---|:----|:---------------|:---------|:-------|:-------|:-----------|
 | C-01 | D1 Missing DOIs (463 papers) | D1 living-paper | **HIGH** | **L** | D-02 | 463 papers have null/PENDING DOIs. Bulk is kg-backfill entries — need verification if DOIs exist in KG properties. |
-| C-02 | paper_ids Registry Gaps (7 papers) | D1 paper_ids | **HIGH** | **S** | I-01 | 7 D1 papers missing from paper_ids registry — blocks cross-system ID resolution. |
+| C-02 | paper_ids Registry Gaps | D1 paper_ids | **RESOLVED** ✅ | — | — | 9 previously-missing paper_ids entries seeded (916→925). All 215 papers with body_md now have paper_ids. Remaining 11 gaps are metadata-only papers. [v1.5: Seeded 2026-07-31: adelic-entropic-numbers, adelic-epistemological-foundations, adelic-rate-distortion-theory, adelic-shannon-theory, continuum-trilogy-01/02/03, measurement-stratigraphy, notation-problem-scaffold-stripping.] |
 | C-03 | biophoton Not Vectorized | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01 | Paper body not in Vectorize semantic search index. |
 | C-04 | biophoton Missing KG Paper Node | biophoton-ultrametric-consilience | **MEDIUM** | **S** | D-01, I-01 | Paper not represented in Knowledge Graph. |
 | C-05 | Infomatics Publication State | Infomatics | **MEDIUM** | **M** | — | After recovery (I-02), needs D1/KG/Zenodo publication pipeline. |
@@ -162,7 +162,7 @@ G-01 (QNFO.GOV)
 | Cross-Repository (🔍) | 7 | 0 (-1) | 1 | 0 (-3) | 2 + 4 resolved |
 | **TOTAL** | **54** | **0** | **6** | **9** | **28 + 7 resolved** |
 
-**Key insight:** 0 BLOCKING. 6 HIGH. 7 RESOLVED gaps (I-04, C-06, D-02, D-03, 🔍-CT1, 🔍-CT2, 🔍-AE1, 🔍-DEP). The HIGH-severity gaps (I-01, I-02, C-01, C-02, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt.
+**Key insight:** 0 BLOCKING. 4 HIGH. 10 RESOLVED gaps (I-03, I-04, I-07, C-02, C-06, D-02, D-03, 🔍-CT1, 🔍-CT2, 🔍-AE1, 🔍-DEP). The HIGH-severity gaps (I-01, I-02, C-01, G-01) are infrastructure and content-registry issues that block systematic verification but not individual project progress. This validates the core claim: the portfolio is NOT in crisis mode; it has drifted into maintenance debt. [v1.5: I-03, I-07, C-02 resolved 2026-07-31. I-02 investigated (8 R2 paths searched). I-05 blocked (Dashboard redeploy).]
 
 **Pareto distribution:** The top 5 HIGH-severity gaps (12% of total) block ~40% of remaining gaps directly or transitively, and resolving them enables systematic rather than ad hoc verification. This confirms the Phase 0 core claim (§1.2) — the dependency graph is predominantly a DAG with depth ≤3, and the first 1-2 phases (infrastructure) resolve the root blockers for everything downstream.
 
