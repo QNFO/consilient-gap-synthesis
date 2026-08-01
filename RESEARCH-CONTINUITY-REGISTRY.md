@@ -238,3 +238,17 @@ Semantic Scholar: 429 rate limited × 3) or returned `"OK"` with no readable out
 - ACRP-03/06/08 — pending, after 02/05
 
 **Continuation handoff:** Next session priority: ACRP-02 (P0) → ACRP-05 (P0) → jpcub-validation Phase 2 (HIGH, in-progress — Phase 1 partial, Semantic Scholar blocked, use OpenAlex per v2.36).
+
+---
+
+## 11. ACRP-02 + ACRP-05 Completed (2026-07-31)
+
+**ACRP-02 — Boundary Ultrametricity: PUBLISHED** (DOI 10.5281/zenodo.21736091, repo QNFO/boundary-ultrametricity, tag v1.0). Core result: the ZBW transition graph is 0-HYPERBOLIC, NOT ultrametric — Claim C2 of Zenodo 21211007 conflated the two. δ was computed on the MST (trivially 0); independent full-graph recomputation gives δ_avg=0.265; the paper's own data shows 147/500 (29.4%) Dirac + 173/500 (34.6%) Majorana strong-triangle violations. The boundary Gromov-product metric on ∂∞𝒯_p ≅ P¹(Q_p) IS ultrametric (0 violations, verified p=2,3,5) and recovers |·|_p. Corrected claim: "0-hyperbolic core." Corpus audit: 93 papers mention ultrametric, 77 also tree; sample 6 correct / 2 ambiguous (consilient-synthesis-v2, ultrametric-consilience-atlas need v-next tightening).
+
+**ACRP-05 — The Substrate Is the Algorithm: PUBLISHED** (DOI 10.5281/zenodo.21736173, repo QNFO/substrate-is-algorithm, tag v1.0). Formalization of Thread 3: category-theoretic setting (substrate=object, computation=morphisms, intrinsic protection=endomorphism-invariance); conjecture Capability(S) ≅ End(X_S); five-instance verification ALL CONSISTENT; mandatory Church-Turing constraining section: thesis holds at RESOURCE level only (native ops, error overhead, energy), NOT computability level. External anchors OpenAlex-verified.
+
+**Next session priorities (updated):**
+1. jpcub-validation Phase 2 (HIGH, in-progress — NA-13): read 5 core papers, collect historical JPCUB estimates for 6 transitions
+2. ACRP-03 (P1): Composite-Radix Theory — repair Silent Radix kernel membership (CRT factorization, property-survival table)
+3. ACRP-06 (P2): v_p^max code-classification extension
+4. ACRP-08 (P2): ACRP paradigm forecast (now has 3 published projects to forecast from)
