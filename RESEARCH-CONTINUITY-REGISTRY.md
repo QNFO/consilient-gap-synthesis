@@ -219,3 +219,22 @@ Semantic Scholar: 429 rate limited × 3) or returned `"OK"` with no readable out
 > the correct response is `[NOT-VERIFIED: <reason>]`, not asserted findings. Every
 > claim in a research artifact must cite a specific, readable tool output file.
 
+
+---
+
+## 10. Red Team — ACRP-04 Closeout & Terminology Correction (2026-07-31)
+
+**ACRP-04 CLOSED:** Statistical audit of the Cross-Domain v3.2 mass-ratio claim published (DOI 10.5281/zenodo.21727479, repo QNFO/pythagorean-semigroup-audit). Verdict: `[CONSISTENT WITH LOOK-ELSEWHERE ARTIFACT]` — p_global=0.116 (not significant; 1-in-8.6 using optimal fits, p≈1.0 using the paper's own fits), 2 of 9 claimed fits arithmetically false (m_τ/m_μ computes 0.2624 not 16.80; m_h/m_e computes 239.15 not 244,888), precise ratios deviate 4–9138σ, pre-registered neutrino prediction passes trivially (P(null pass)=0.9998 — zero confirmatory power).
+
+**Terminology correction (red-team finding, HARD):** {2^a·3^b·5^c} are **5-smooth (Hamming/regular) numbers**, NOT "Pythagorean numbers". Pythagorean numbers satisfy a²+b²=c² (integer triples). The name is a misnomer — an allusion to the 3-4-5 triple (whose primes are {2,3,5}) that brands numerology with false number-theoretic prestige. Correct term: **5-smooth semigroup**. This misnomer propagated from v3.2 (10.5281/zenodo.21546243) into ACRP-01 synthesis v2.0 and the ACRP-04 audit paper — all should carry the correction in future versions.
+
+**Prioritization correction (red-team finding, HARD):** ACRP-04 was designated "P0 (highest EV)" in ACRP plan v1.0 — wrong. The claim is trivially satisfiable for every real number (density), and it matched the user's documented anti-pattern ("decimal PDG masses + single ratios + unregistered trials = pure numerology"). The ACRP plan v1.1 (R2: qnfo-releases/programs/acrp/ADELIC-CORE-PROGRAM-PLAN-v1.1.md) reclassifies ACRP-04 as CLOSED and promotes ACRP-02/ACRP-05.
+
+**Status of ACRP projects:**
+- ACRP-01 ✅ PUBLISHED (10.5281/zenodo.21727314) — Consilient Synthesis v2.0, C1–C7 applied
+- ACRP-04 ✅ CLOSED (10.5281/zenodo.21727479) — look-elsewhere artifact confirmed
+- ACRP-02 ⏳ NEXT SESSION — boundary ultrametricity (tree vs ∂∞𝒯)
+- ACRP-05 ⏳ NEXT SESSION — "The Substrate Is the Algorithm" formalization
+- ACRP-03/06/08 — pending, after 02/05
+
+**Continuation handoff:** Next session priority: ACRP-02 (P0) → ACRP-05 (P0) → jpcub-validation Phase 2 (HIGH, in-progress — Phase 1 partial, Semantic Scholar blocked, use OpenAlex per v2.36).
