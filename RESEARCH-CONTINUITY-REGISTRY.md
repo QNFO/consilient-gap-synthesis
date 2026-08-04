@@ -247,6 +247,17 @@ Semantic Scholar: 429 rate limited × 3) or returned `"OK"` with no readable out
 
 **ACRP-05 — The Substrate Is the Algorithm: PUBLISHED** (DOI 10.5281/zenodo.21736173, repo QNFO/substrate-is-algorithm, tag v1.0). Formalization of Thread 3: category-theoretic setting (substrate=object, computation=morphisms, intrinsic protection=endomorphism-invariance); conjecture Capability(S) ≅ End(X_S); five-instance verification ALL CONSISTENT; mandatory Church-Turing constraining section: thesis holds at RESOURCE level only (native ops, error overhead, energy), NOT computability level. External anchors OpenAlex-verified.
 
+**
+### ODR Thesis v2.0 — Research Continuity Tracking (2026-08-04)
+
+**DOI:** [10.5281/zenodo.21784489](https://doi.org/10.5281/zenodo.21784489)  
+**Companion:** Quasiparticles as Rational Functions v2.0 ([10.5281/zenodo.21784490](https://doi.org/10.5281/zenodo.21784490))  
+**Full Registry:** `QNFO/odr-thesis` → `RESEARCH-CONTINUITY-REGISTRY.md` (branch `feature/odr-thesis`, commit `bbd1683`)
+
+Tracking: **10 frontier research questions** (§7.3 "The Adelic Distinction"), **5 falsifiable predictions** (P1-P5 with P2 as fulcrum, Fermi-LAT 2-5yr), **5 per-RQ disconfirmation conditions**, **3 pre-registration scaffolds**, **5 calibration predictions**, and **5 QP-companion falsifiability conditions** (QP-F1 through QP-F5). Priority next actions: P0 formal pre-registration, P1 FQ2 Noether derivation, P2 P5 PDG systematic review.
+
+**Key fulcrum:** P2 (Lorentz-violation dispersion with prime-dependent structure) — if confirmed, elevates ODR thesis from Philosophy to Physics. P5 holds ~90yr.
+
 **Next session priorities (updated):**
 1. jpcub-validation Phase 2 (HIGH, in-progress — NA-13): read 5 core papers, collect historical JPCUB estimates for 6 transitions
 2. ACRP-03 (P1): Composite-Radix Theory — repair Silent Radix kernel membership (CRT factorization, property-survival table)
