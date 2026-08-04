@@ -157,60 +157,60 @@ Fixing I-gaps enables systematic C-gap resolution, which enables D-gaps.
 - [ ] F0.7: Commit + tag `v0.1-phase0`
 
 ### Phase 1: Due Diligence — Full Cross-Reference
-- [ ] P1.1: For each ACTIVE project, read PROJECT-PLAN.md / HANDOFF.md for explicit gap lists
-- [ ] P1.2: Query R2 for orphan project artifacts (projects with R2 presence but no KG node)
-- [ ] P1.3: Query D1 living-paper for papers with status != "published" or missing DOI
-- [ ] P1.4: Cross-reference KG Paper nodes against D1 (KIF-23: 257/887 were missing — recheck)
-- [ ] P1.5: Run Cross-Domain Consilience Gate (KIF-29) — produce `artifacts/consilience-gate.md`
-- [ ] P1.6: Commit + tag `v0.2-phase1-dd`
+- [ ] QNFO.CGS.001.P1.T1: For each ACTIVE project, read PROJECT-PLAN.md / HANDOFF.md for explicit gap lists
+- [ ] QNFO.CGS.001.P1.T2: Query R2 for orphan project artifacts (projects with R2 presence but no KG node)
+- [ ] QNFO.CGS.001.P1.T3: Query D1 living-paper for papers with status != "published" or missing DOI
+- [ ] QNFO.CGS.001.P1.T4: Cross-reference KG Paper nodes against D1 (KIF-23: 257/887 were missing — recheck)
+- [ ] QNFO.CGS.001.P1.T5: Run Cross-Domain Consilience Gate (KIF-29) — produce `artifacts/consilience-gate.md`
+- [ ] QNFO.CGS.001.P1.T6: Commit + tag `v0.2-phase1-dd`
 
 ### Phase 2: Gap Catalog — Complete Enumeration and Classification
-- [ ] P2.1: Compile master gap list from all Phase 1 sources
-- [ ] P2.2: Classify each gap into the 5-category system (I/C/P/G/D)
-- [ ] P2.3: Assign severity: BLOCKING / HIGH / MEDIUM / LOW
-- [ ] P2.4: Map blocker dependencies (gap A blocks gap B)
-- [ ] P2.5: Assign estimated effort (S/M/L/XL) per gap
-- [ ] P2.6: Produce `artifacts/gap-registry.md` — the complete catalog
-- [ ] P2.7: Commit + tag `v0.3-phase2-gaps`
+- [ ] QNFO.CGS.001.P2.T1: Compile master gap list from all Phase 1 sources
+- [ ] QNFO.CGS.001.P2.T2: Classify each gap into the 5-category system (I/C/P/G/D)
+- [ ] QNFO.CGS.001.P2.T3: Assign severity: BLOCKING / HIGH / MEDIUM / LOW
+- [ ] QNFO.CGS.001.P2.T4: Map blocker dependencies (gap A blocks gap B)
+- [ ] QNFO.CGS.001.P2.T5: Assign estimated effort (S/M/L/XL) per gap
+- [ ] QNFO.CGS.001.P2.T6: Produce `artifacts/gap-registry.md` — the complete catalog
+- [ ] QNFO.CGS.001.P2.T7: Commit + tag `v0.3-phase2-gaps`
 
 ### Phase 3: Version Roadmap — Phased Sequencing
-- [ ] P3.1: Topological sort of gap dependency graph into phases
-- [ ] P3.2: Assign version targets: `v2.0` (Infrastructure), `v2.1` (Content Remediation), `v2.2` (Governance), `v2.3` (Physics Validation), `v2.4` (Dissemination)
-- [ ] P3.3: Estimate completion windows per version
-- [ ] P3.4: Produce `docs/version-roadmap.md`
-- [ ] P3.5: Commit + tag `v0.4-phase3-roadmap`
+- [ ] QNFO.CGS.001.P3.T1: Topological sort of gap dependency graph into phases
+- [ ] QNFO.CGS.001.P3.T2: Assign version targets: `v2.0` (Infrastructure), `v2.1` (Content Remediation), `v2.2` (Governance), `v2.3` (Physics Validation), `v2.4` (Dissemination)
+- [ ] QNFO.CGS.001.P3.T3: Estimate completion windows per version
+- [ ] QNFO.CGS.001.P3.T4: Produce `docs/version-roadmap.md`
+- [ ] QNFO.CGS.001.P3.T5: Commit + tag `v0.4-phase3-roadmap`
 
 ### Phase 4: Deep Research — Bayesian Cascade (IF TRIGGERED)
-- [ ] P4.1: Stage -1: Likelihood Calibration Protocol (KIF-31)
-- [ ] P4.2: Stage 0-8: Full Bayesian cascade on highest-EV gap resolution strategies
-- [ ] P4.3: Produce `artifacts/bayesian-cascade.md`
-- [ ] P4.4: Commit + tag `v0.5-phase4-deep`
+- [ ] QNFO.CGS.001.P4.T1: Stage -1: Likelihood Calibration Protocol (KIF-31)
+- [ ] QNFO.CGS.001.P4.T2: Stage 0-8: Full Bayesian cascade on highest-EV gap resolution strategies
+- [ ] QNFO.CGS.001.P4.T3: Produce `artifacts/bayesian-cascade.md`
+- [ ] QNFO.CGS.001.P4.T4: Commit + tag `v0.5-phase4-deep`
 
 ### Phase 5: Publication — Synthesis Paper
-- [ ] P5.1: Write synthesis paper (`paper.md`) with full gap catalog and roadmap
-- [ ] P5.2: Build PDF via `research/scripts/build-paper.py`
-- [ ] P5.3: Verify PDF (zero U+FFFD/U+FFFF)
-- [ ] P5.4: Build PROVENANCE-BUNDLE.zip
-- [ ] P5.5: Zenodo upload with DOI
-- [ ] P5.6: Commit + tag `v1.0`
+- [ ] QNFO.CGS.001.P5.T1: Write synthesis paper (`paper.md`) with full gap catalog and roadmap
+- [ ] QNFO.CGS.001.P5.T2: Build PDF via `research/scripts/build-paper.py`
+- [ ] QNFO.CGS.001.P5.T3: Verify PDF (zero U+FFFD/U+FFFF)
+- [ ] QNFO.CGS.001.P5.T4: Build PROVENANCE-BUNDLE.zip
+- [ ] QNFO.CGS.001.P5.T5: Zenodo upload with DOI
+- [ ] QNFO.CGS.001.P5.T6: Commit + tag `v1.0`
 
 ### Phase 6: Deployment
-- [ ] P6.1: D1 living-paper insert
-- [ ] P6.2: Papers-server verification (HTTP 200)
-- [ ] P6.3: R2 archive sync
-- [ ] P6.4: KG Paper node + edges
-- [ ] P6.5: Commit + tag `v1.1-deploy`
+- [ ] QNFO.CGS.001.P6.T1: D1 living-paper insert
+- [ ] QNFO.CGS.001.P6.T2: Papers-server verification (HTTP 200)
+- [ ] QNFO.CGS.001.P6.T3: R2 archive sync
+- [ ] QNFO.CGS.001.P6.T4: KG Paper node + edges
+- [ ] QNFO.CGS.001.P6.T5: Commit + tag `v1.1-deploy`
 
 ### Phase 7: Dissemination
-- [ ] P7.1: SEO audit (robots.txt, sitemap, llms.txt, meta tags)
-- [ ] P7.2: Buffer post (3 channels: Twitter, LinkedIn, Bluesky)
-- [ ] P7.3: Internet Archive snapshot
-- [ ] P7.4: Commit + tag `v1.2-disseminate`
+- [ ] QNFO.CGS.001.P7.T1: SEO audit (robots.txt, sitemap, llms.txt, meta tags)
+- [ ] QNFO.CGS.001.P7.T2: Buffer post (3 channels: Twitter, LinkedIn, Bluesky)
+- [ ] QNFO.CGS.001.P7.T3: Internet Archive snapshot
+- [ ] QNFO.CGS.001.P7.T4: Commit + tag `v1.2-disseminate`
 
 ### Phase 8: Core Distribution
-- [ ] P8.1: GitHub push + tag `v1.3-distribute`
-- [ ] P8.2: Zenodo new-version (if applicable)
-- [ ] P8.3: Full stack verification (GitHub+Zenodo+R2+D1/KG)
+- [ ] QNFO.CGS.001.P8.T1: GitHub push + tag `v1.3-distribute`
+- [ ] QNFO.CGS.001.P8.T2: Zenodo new-version (if applicable)
+- [ ] QNFO.CGS.001.P8.T3: Full stack verification (GitHub+Zenodo+R2+D1/KG)
 
 ---
 
@@ -268,3 +268,5 @@ Fixing I-gaps enables systematic C-gap resolution, which enables D-gaps.
    verification).
 5. **Actionability:** Each version target maps to concrete, executable tasks
    that can be picked up by any agent from cold start.
+
+> **WBS CODE STANDARD (qnfo-core §N-1):** Tasks use `[CGS-Pn-Tnn]` codes. 
