@@ -1,7 +1,7 @@
 ---
 title: "A Consilient Gap Synthesis of the QNFO/QWAV Research Portfolio"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-29"
+date: "2026-08-04"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21711000"
 status: "published"
@@ -251,6 +251,67 @@ Gap D-02 (Buffer Personal Access Token returned FORBIDDEN on 2026-07-29, KIF-45)
 blocks all social media dissemination (v2.4). This is a user-action item — the
 token must be regenerated at https://buffer.com/developers/api. Until resolved,
 the v2.4 dissemination phase cannot proceed, but no other phase is blocked.
+
+## 4.4 v2.1: Content Registry Remediation
+
+Three HIGH-severity gaps drive this phase: (1) seed 7 paper_ids registry entries
+(C-02) for papers deployed to D1 but missing from the cross-reference registry;
+(2) reconcile KG Paper nodes against D1 (C-01) — the KIF-23 drift where 257/887
+paper DOIs were missing from KG edges persists; (3) create 11 missing Vectorize
+indices (C-03) for papers with D1 body_md but no semantic index. This phase is
+gated on v2.0 (infrastructure) — the Consistency Engine Worker must be able to
+detect missing registry entries automatically before remediation can be
+declared complete. Estimated: 3 sessions. Impact: closes all cross-reference
+gaps; D1→KG→Vectorize consistency verified across the full 900+ paper corpus.
+
+## 4.5 v2.2: Governance Completion
+
+QNFO.GOV is the sole medium-severity governance gap with 17 remaining tasks
+across 3 incomplete phases. Priorities: (1) formalize the project lifecycle
+state machine (DEC-020) — the current DRAFT/ACTIVE/PUBLISHED/ARCHIVED
+taxonomy is underspecified for edge cases like recovered projects; (2) codify
+the Core Distribution Stack verification protocol (GitHub→Zenodo→R2→D1/KG)
+as a mandatory publication gate; (3) complete program-level Phase 0 audits
+for the Kepler Program (5 sub-projects with unknown Phase 0 status). This
+phase is partially parallelizable with v2.1 — governance documents do not
+depend on the Consistency Engine. Estimated: 5 sessions (3 for tasks, 2 for
+audit). Impact: the governance layer becomes self-documenting; future agents
+can verify publication status without ad hoc HANDOFF.md narratives.
+
+## 4.6 v2.3: Physics Validation Pipeline
+
+The physics validation layer contains five gaps: calibration training for
+forecasting (P-01), Planck-Wheeler clock extrapolation validation (P-02),
+external literature gap analysis for the Continuum Trilogy (P-03), Kepler
+Program external literature audit (P-04), and ultrametric-well numerical
+validation (P-05). This phase has the longest estimated duration (8 sessions)
+but is fully independent of v2.1–v2.2 and can be parallelized.
+
+**A gap closed in advance — Cross-Ratio Synthesis (2026-08-04):** One
+conceptual physics gap is now resolved preemptively. The extended ODR thesis
+(2026-08-03) and the Frequency as Valuation Theory paper (10.5281/zenodo.21778603)
+established that the Compton count N_C = m/m_P is a rational number — a
+valuation-theoretic object on the Bruhat-Tits tree. The follow-up cross-ratio
+synthesis (Obsidian note 26216024519, 2026-08-04) extended this to the
+conclusion that the Compton count IS a cross-ratio between the target
+particle and the background (Planck substrate), and that fundamental particles
+and quasiparticles are ontologically identical on the Bruhat-Tits tree — both
+are cross-ratios of frequencies against different reference backgrounds. The
+distinction is anthropocentric, not metaphysical. This closes the gap
+previously classified as "fundamental vs. quasiparticle ontology — unresolved
+conceptual distinction" and strengthens the ODR-to-frequency-paper bridge.
+
+## 4.7 v2.4: Dissemination Closeout
+
+The final phase covers: (1) execute all pending Buffer posts (D-02) covering
+the 10 papers published since the last dissemination cycle; (2) add missing
+SEO metadata (robots.txt, sitemap.xml, Schema.org markup) to papers.qnfo.org
+for discoverability (D-01); (3) create DNSLink TXT records for 3 remaining
+publication subdomains (D-03). This phase is gated on v2.1 (content verification —
+Buffer posts must reference verified DOIs) and on the Buffer token refresh
+(§4.3). Estimated: 1 session post-token-refresh. Impact: all published papers
+are discoverable on the public web, with social media presence and semantic
+search indexing.
 
 ---
 
