@@ -66,3 +66,9 @@ R2: qnfo-projects/consilient-gap-synthesis/
 WBS: Phase 8 pending (Zenodo publish + KG edges)
 --- END ---
 ```
+## v2.0 Iteration (2026-08-04)  
+  
+**Status:** Master Plan parts II-IX (v2.1-v2.4) built out in paper.md 4.4-4.7.  
+**Key addition:** Cross-Ratio Synthesis gap closure - fundamental/quasiparticle ontology now unified under Bruhat-Tits cross-ratio framework (source: Obsidian 26216024519).  
+**Paper size:** 21329 chars, 36 sections. Branch: feature/v2.0-iteration.  
+**Next:** Phase 5 - build PDF + Zenodo newversion. Then Phase 6 - D1 + papers-server redeploy. 
