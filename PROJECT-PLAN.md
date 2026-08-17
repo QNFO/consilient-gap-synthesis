@@ -1,6 +1,6 @@
 # PROJECT-PLAN: Consilient Gap Synthesis — QNFO/QWAV Portfolio Roadmap v1.0
 
-**Author:** QNFO Research Collective  
+**Author:** QNFO  
 **Date:** 2026-07-29  
 **License:** QNFO Unified License Agreement  
 **Project Slug:** `consilient-gap-synthesis`  

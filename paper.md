@@ -368,7 +368,7 @@ human author against primary sources.
 
 # References
 
-1. QNFO Research Collective. "Systemwide Audit 2026-07-25." QNFO Audit Archive, 2026. KIF-22, KIF-23.
+1. QNFO. "Systemwide Audit 2026-07-25." QNFO Audit Archive, 2026. KIF-22, KIF-23.
 2. QNFO Research. "QNFO Unified Plan: ℚ-vs-ℝ." Zenodo, 2026. DOI: 10.5281/zenodo.21664651.
 3. QNFO Research. "The Computable Real Boundary." Zenodo, 2026. DOI: 10.5281/zenodo.21645350.
 4. QNFO Research. "Biophoton Ultrametricity: Consilient Synthesis." Zenodo, 2026. DOI: 10.5281/zenodo.21651892.
